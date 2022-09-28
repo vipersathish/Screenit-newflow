@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [ScreenIT]">
+  <test name="SelectedFlow(failed)">
+    <classes>
+      <class name="com.TrueTech.ScreenIT.testCases.SelectedRegressionFlow">
+        <methods>
+          <include name="screenitSelectedTest"/>
+        </methods>
+      </class> <!-- com.TrueTech.ScreenIT.testCases.SelectedRegressionFlow -->
+    </classes>
+  </test> <!-- SelectedFlow(failed) -->
+</suite> <!-- Failed suite [ScreenIT] -->

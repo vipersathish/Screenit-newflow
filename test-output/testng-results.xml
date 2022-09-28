@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The chrome browser is open now]]>
+    </line>
+    <line>
+      <![CDATA[The browser is maximize]]>
+    </line>
+    <line>
+      <![CDATA[Loginpage Enter the Email-- venkatesan.lavanya@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Loginpage Enter the Password --Welcome@1]]>
+    </line>
+    <line>
+      <![CDATA[Loginpage click the loginbutton navigate to the dashboradpage]]>
+    </line>
+    <line>
+      <![CDATA[click the uploadid button]]>
+    </line>
+    <line>
+      <![CDATA[candidate resume uploaded]]>
+    </line>
+    <line>
+      <![CDATA[select the years]]>
+    </line>
+    <line>
+      <![CDATA[select the months]]>
+    </line>
+    <line>
+      <![CDATA[choose the primary skills]]>
+    </line>
+    <line>
+      <![CDATA[choose the secondary skills]]>
+    </line>
+    <line>
+      <![CDATA[Type the job description]]>
+    </line>
+    <line>
+      <![CDATA[Type the Remark]]>
+    </line>
+    <line>
+      <![CDATA[create the post]]>
+    </line>
+    <line>
+      <![CDATA[Select the interviewer]]>
+    </line>
+    <line>
+      <![CDATA[click the uploadResume button]]>
+    </line>
+    <line>
+      <![CDATA[upload candidate resume]]>
+    </line>
+    <line>
+      <![CDATA[status should be --- New]]>
+    </line>
+    <line>
+      <![CDATA[click the set availability]]>
+    </line>
+    <line>
+      <![CDATA[Choose the data]]>
+    </line>
+    <line>
+      <![CDATA[choose the time]]>
+    </line>
+    <line>
+      <![CDATA[choose the seconds]]>
+    </line>
+    <line>
+      <![CDATA[choose the suffix]]>
+    </line>
+    <line>
+      <![CDATA[status should be ---Schedule Request Pending]]>
+    </line>
+    <line>
+      <![CDATA[candidate details----Sathishsathish.s@truetechsolutions.in9361336575]]>
+    </line>
+    <line>
+      <![CDATA[status should be ---Scheduled]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="341133" started-at="2022-09-28T10:15:05Z" finished-at="2022-09-28T10:20:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="341133" started-at="2022-09-28T10:15:05Z" finished-at="2022-09-28T10:20:46Z">
+      <class name="com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow">
+        <test-method status="FAIL" signature="loginpage()[pri:1, instance:com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow@754ba872]" name="loginpage" duration-ms="341095" started-at="2022-09-28T15:45:05Z" description="screenit selected flow" finished-at="2022-09-28T15:50:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat com.TrueTech.ScreenIT.NewFlow.Pages.EmailPage.enterMeetingId(EmailPage.java:197)at com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow.loginpage(SelectedRegressionFlow.java:146)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The chrome browser is open now]]>
+            </line>
+            <line>
+              <![CDATA[The browser is maximize]]>
+            </line>
+            <line>
+              <![CDATA[Loginpage Enter the Email-- venkatesan.lavanya@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Loginpage Enter the Password --Welcome@1]]>
+            </line>
+            <line>
+              <![CDATA[Loginpage click the loginbutton navigate to the dashboradpage]]>
+            </line>
+            <line>
+              <![CDATA[click the uploadid button]]>
+            </line>
+            <line>
+              <![CDATA[candidate resume uploaded]]>
+            </line>
+            <line>
+              <![CDATA[select the years]]>
+            </line>
+            <line>
+              <![CDATA[select the months]]>
+            </line>
+            <line>
+              <![CDATA[choose the primary skills]]>
+            </line>
+            <line>
+              <![CDATA[choose the secondary skills]]>
+            </line>
+            <line>
+              <![CDATA[Type the job description]]>
+            </line>
+            <line>
+              <![CDATA[Type the Remark]]>
+            </line>
+            <line>
+              <![CDATA[create the post]]>
+            </line>
+            <line>
+              <![CDATA[Select the interviewer]]>
+            </line>
+            <line>
+              <![CDATA[click the uploadResume button]]>
+            </line>
+            <line>
+              <![CDATA[upload candidate resume]]>
+            </line>
+            <line>
+              <![CDATA[status should be --- New]]>
+            </line>
+            <line>
+              <![CDATA[click the set availability]]>
+            </line>
+            <line>
+              <![CDATA[Choose the data]]>
+            </line>
+            <line>
+              <![CDATA[choose the time]]>
+            </line>
+            <line>
+              <![CDATA[choose the seconds]]>
+            </line>
+            <line>
+              <![CDATA[choose the suffix]]>
+            </line>
+            <line>
+              <![CDATA[status should be ---Schedule Request Pending]]>
+            </line>
+            <line>
+              <![CDATA[candidate details----Sathishsathish.s@truetechsolutions.in9361336575]]>
+            </line>
+            <line>
+              <![CDATA[status should be ---Scheduled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow@754ba872]" name="teardown" is-config="true" duration-ms="173" started-at="2022-09-28T15:50:46Z" finished-at="2022-09-28T15:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
