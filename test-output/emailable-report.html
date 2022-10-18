@@ -9,15 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">341,133</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">172,761</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow</td><td><a href="#m0">loginpage</a></td><td rowspan="1">1664360105320</td><td rowspan="1">341095</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2</td><td><a href="#m0">candidatePages</a></td><td rowspan="1">1666073343078</td><td rowspan="1">33144</td></tr><tr class="failedeven"><td><a href="#m1">dashboardPages</a></td><td rowspan="1">1666073275376</td><td rowspan="1">66711</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2</td><td><a href="#m2">loginPages</a></td><td rowspan="1">1666073204528</td><td rowspan="1">69100</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow#loginpage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The chrome browser is open now<br/>The browser is maximize<br/>Loginpage Enter the Email-- venkatesan.lavanya@gmail.com<br/>Loginpage Enter the Password --Welcome@1<br/>Loginpage click the loginbutton navigate to the dashboradpage<br/>click the uploadid button<br/>candidate resume uploaded<br/>select the years<br/>select the months<br/>choose the primary skills<br/>choose the secondary skills<br/>Type the job description<br/>Type the Remark<br/>create the post<br/>Select the interviewer<br/>click the uploadResume button<br/>upload candidate resume<br/>status should be --- New<br/>click the set availability<br/>Choose the data<br/>choose the time<br/>choose the seconds<br/>choose the suffix<br/>status should be ---Schedule Request Pending<br/>candidate details----Sathish
-sathish.s@truetechsolutions.in
-9361336575<br/>status should be ---Scheduled</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.TrueTech.ScreenIT.NewFlow.Pages.EmailPage.enterMeetingId(EmailPage.java:197)
-	at com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow.loginpage(SelectedRegressionFlow.java:146)
+<h2>Default test</h2><h3 id="m0">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2#candidatePages</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.TrueTech.ScreenIT.NewFlow.Pages.CandidateProfilePage.selectInterviewer(CandidateProfilePage.java:30)
+	at com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2.candidatePages(SelectedRegressionFlow2.java:78)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -44,5 +42,54 @@ sathish.s@truetechsolutions.in
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2#dashboardPages</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">click the uploadid button<br/>candidate resume uploaded<br/>select the years<br/>select the months</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TTS-SCRIT-5&apos;, ip: &apos;10.10.3.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TTS-USER\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b997aeafcd98199a035f16a3b81ac104
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at com.TrueTech.ScreenIT.NewFlow.Pages.DashBoardPage.choosePrimarySkill(DashBoardPage.java:110)
+	at com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2.dashboardPages(SelectedRegressionFlow2.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2#loginPages</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Loginpage Enter the Email-- <br/>Loginpage Enter the Password --Welcome@1<br/>Loginpage click the loginbutton navigate to the dashboradpage</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

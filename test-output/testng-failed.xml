@@ -3,12 +3,14 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow">
+      <class name="com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2">
         <methods>
-          <include name="loginpage"/>
+          <include name="setUp"/>
+          <include name="dashboardPages"/>
           <include name="teardown"/>
+          <include name="candidatePages"/>
         </methods>
-      </class> <!-- com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow -->
+      </class> <!-- com.TrueTech.ScreenIT.NewFlow.testCases.SelectedRegressionFlow2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
