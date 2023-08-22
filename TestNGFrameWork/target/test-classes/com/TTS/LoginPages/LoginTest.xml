@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstSuite">
+  <test thread-count="5" name="FULLFLOWOFSCREENIT">
+  
+  <parameter name= "browser" value= "chrome"></parameter>
+  <parameter name= "Url" value="https://demo.screenit.io/#/Login"></parameter>
+  <parameter name= "Email" value="venkatesan.lavanya@gmail.com"></parameter>
+  <parameter name="Password" value="Welcome@1"></parameter>
+  <parameter name="titlename" value="CoreJava"></parameter>
+  <parameter name="monthname" value="5 years"></parameter>
+  <parameter name="yearname" value="8 months"></parameter>
+  <parameter name="skillname" value="Apache NiFi"></parameter>
+    <classes>
+      <class name="com.TTS.LoginPages.pageObjectModuleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+</suite> <!-- Suite -->

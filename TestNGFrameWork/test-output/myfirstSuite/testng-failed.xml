@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [MyFirstSuite]">
+  <test name="FULLFLOWOFSCREENIT(failed)">
+    <parameter name="Email" value="venkatesan.lavanya@gmail.com"/>
+    <parameter name="skillname" value="Apache NiFi"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="monthname" value="5 years"/>
+    <parameter name="yearname" value="8 months"/>
+    <parameter name="titlename" value="CoreJava"/>
+    <parameter name="Url" value="https://demo.screenit.io/#/Login"/>
+    <parameter name="Password" value="Welcome@1"/>
+    <classes>
+      <class name="com.TTS.LoginPages.pageObjectModuleTest">
+        <methods>
+          <include name="LoginPageTests" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TTS.LoginPages.pageObjectModuleTest -->
+    </classes>
+  </test> <!-- FULLFLOWOFSCREENIT(failed) -->
+</suite> <!-- Failed suite [MyFirstSuite] -->

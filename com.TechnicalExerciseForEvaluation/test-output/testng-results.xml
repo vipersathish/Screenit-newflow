@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38646" started-at="2023-01-18T16:50:17Z" finished-at="2023-01-18T16:50:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38646" started-at="2023-01-18T16:50:17Z" finished-at="2023-01-18T16:50:56Z">
+      <class name="com.TechnicalExerciseForEvaluation.testCases.PreRetirementCalculator">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TechnicalExerciseForEvaluation.testCases.PreRetirementCalculator@e25b2fe]" name="setUp" is-config="true" duration-ms="5762" started-at="2023-01-18T22:20:18Z" finished-at="2023-01-18T22:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="retirementCalcultor()[pri:0, instance:com.TechnicalExerciseForEvaluation.testCases.PreRetirementCalculator@e25b2fe]" name="retirementCalcultor" duration-ms="31893" started-at="2023-01-18T22:20:23Z" finished-at="2023-01-18T22:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retirementCalcultor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TechnicalExerciseForEvaluation.testCases.PreRetirementCalculator@e25b2fe]" name="tearDown" is-config="true" duration-ms="906" started-at="2023-01-18T22:20:55Z" finished-at="2023-01-18T22:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TechnicalExerciseForEvaluation.testCases.PreRetirementCalculator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
